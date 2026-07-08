@@ -54,13 +54,20 @@ section{
 }
 
 header{
-    width: 100%;
+    width: 80%;
 }
 
 header img{
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+}
+
+.RRSS{
+    display: flex;
+    gap: 30px;
+
+    margin-top: 20px;
 }
 
 .cont_contact, .cont_catalog, .cont_store_online_islabeya{
@@ -92,4 +99,8 @@ header img{
 
 span{
     font-weight: 600;
+}
+
+.cont_store_online_islabeya a:hover, .btn-link:hover, .RRSS a:hover, a:active{
+    opacity: 50%;
 }
